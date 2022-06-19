@@ -30,7 +30,7 @@ namespace Task5
 		{
 			Console.WriteLine("Слон");
 			//Присваиваем консольному выходому потоку объект StringWriter, который наследуется от TextWriter
-			//Таким при использовании метода Console.WriteLine вывода в консоль происходить не будет
+			//Таким образом при использовании метода Console.WriteLine вывода в консоль происходить не будет
 			Console.SetOut(new System.IO.StringWriter());
 		}
 	}
